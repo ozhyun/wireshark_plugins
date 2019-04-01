@@ -1,0 +1,9 @@
+Usage:
+
+Step 1:
+	put the file portal.lua in the blow dirs where wireshark installed:
+	C:\Program Files\Wireshark\plugins\3.0
+
+Step 2:
+	restart wireshark
+
