@@ -29,7 +29,7 @@ do
 	local f_Rsv = ProtoField.uint8("Rsv", "Reserved", base.DEC)
 	local f_SN = ProtoField.uint16("SerialNo", "SerialNo", base.DEC)
 	local f_ReqID = ProtoField.uint16("ReqID", "ReqD", base.DEC)
-	local f_UserIP = ProtoField.uint32("UserIP", "UserIP", base.HEX)
+	local f_UserIP = ProtoField.ipv4("UserIP", "UserIP", "STA's IP address")
 	local f_UserPort = ProtoField.uint16("UserPort", "UserPort", base.DEC)
 	local f_ErrCode = ProtoField.uint8("ErrCode", "ErrCode", base.DEC)
 	local f_AttrNum = ProtoField.uint8("AttrNum", "AttrNum", base.DEC)
